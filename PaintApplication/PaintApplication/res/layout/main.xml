@@ -25,31 +25,41 @@
             android:id="@+id/imageView_brush"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/brush" />
+            android:src="@drawable/brush"
+            android:layout_weight="1"
+             />
 
         <ImageView
             android:id="@+id/imageView_color"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/color" />
+            android:src="@drawable/color"
+            android:layout_weight="1"
+             />
 
         <ImageView
             android:id="@+id/imageView_eraser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/eraser" />
+            android:src="@drawable/eraser"
+            android:layout_weight="1"
+             />
 
         <ImageView
             android:id="@+id/imageView_undo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/undo" />
+            android:src="@drawable/undo"
+            android:layout_weight="1"
+             />
 
         <ImageView
             android:id="@+id/imageView_redo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/redo" />
+            android:src="@drawable/redo"
+            android:layout_weight="1"
+             />
     </LinearLayout>
 
 </LinearLayout>
